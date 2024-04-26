@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build the Docker image
-        run: docker build -t thesurendra/yadav2567:latest .
+        run: docker build -t thesurendrayadav/yadav2567:latest .
 
       - name: Push the Docker image to Docker Hub
-        run: docker push thesurendra/yadav2567:latest
+        run: docker push thesurendrayadav/yadav2567:latest
